@@ -9,7 +9,7 @@ The robot model is a simple bicycle model that is suitable when velocity is lowe
 </div>
 
 ## Preview
-<div align="left">
+<div align="center">
   <img src="https://github.com/MustafaLotfi/Vehicle-Lateral-Control/blob/main/docs/images/2.gif">
 </div>
 
