@@ -18,8 +18,8 @@ dt = 0.05;
 t_vec = 0;
 
 % Initilization
-x_ref = linspace(0, 10, 1000);
-y_ref = sin(x_ref);
+x_ref = linspace(0, 3.28, 328);
+y_ref = 0.6*sin(2*x_ref);
 q_mat = [x0, y0, theta0]';
 delta_vec = 0;
 err_vec = 0;

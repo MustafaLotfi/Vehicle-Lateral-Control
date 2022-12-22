@@ -14,7 +14,7 @@ L = 0.2;
 v = 0.1;
 x0 = 0.5;
 y0 = 0;
-theta0 = pi/2;
+theta0 = 0;
 delta_min = -pi/4;
 delta_max = pi/4;
 

@@ -34,12 +34,12 @@ ylabel("Trajectory error (m)")
 if dynamic_plot
     for i=1:size(q_mat,2)
         figure(4)
-        plot(x_ref, y_ref, 'g', "LineWidth", 5)
+        plot(x_ref, y_ref, 'g', "LineWidth", 20)
         axis equal
         hold on
         plot([q_mat(1,i),q_mat(1,i)+L*cos(q_mat(3,i))],[q_mat(2,i),...
             q_mat(2,i)+L*sin(q_mat(3,i))],...
-            'b', "LineWidth",2.5)
+            'b', "LineWidth",8)
         hold off
         pause(0.00001)
     end
