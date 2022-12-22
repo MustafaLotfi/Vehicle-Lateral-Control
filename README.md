@@ -9,12 +9,12 @@ In this project, I Controlled a vehicle or a nonholonomic robot lateral movement
 
 ## Preview
 <div align="left">
-  <img src="https://github.com/MustafaLotfi/Vehicle-Lateral-Control/blob/main/docs/images/3.png">
+  <img src="https://github.com/MustafaLotfi/Vehicle-Lateral-Control/blob/main/docs/images/2.gif">
 </div>
 
 ## Steering Wheel
 <div align="left">
-  <img src="https://github.com/MustafaLotfi/Vehicle-Lateral-Control/blob/main/docs/images/3.png">
+  <img src="https://github.com/MustafaLotfi/Vehicle-Lateral-Control/blob/main/docs/images/3.jpg">
 </div>
 
 ## How to run
