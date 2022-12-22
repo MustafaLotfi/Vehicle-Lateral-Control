@@ -1,6 +1,14 @@
 %% Project Information
-% Trajectory tracking of a vehicle using PID Controller
-% Programmer: Mostafa Lotfi
+%%% Vehicle Lateral Control
+%%% Programmer: Mostafa Lotfi
+%%% Date: 5/5/2022
+%%% Matlab version: 2021a
+%%% Brief description: In this project, lateral movement of a vehicle
+%%% (a nonholonomic robot) has been controlled to track a harmonic path
+%%% in 2D space. The robot model is a simple bicycle model that is
+%%% suitable when velocity is lower than 15 km/h. The controller is a
+%%% modified PID. To find the best PID gains, a Gradient Descent
+%%% Optimization Algorithm was utilized.
 clc;
 clear;
 close all;

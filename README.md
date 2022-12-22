@@ -1,5 +1,6 @@
 # Controlling-Nonholonomic-robot
-In this project, I Controlled a vehicle or a nonholonomic robot lateral movement to follow a trajectory with a PID Controller. vehicle model is a simple kinematic bicycle model.
+In this project, lateral movement of a vehicle (a nonholonomic robot) has been controlled to track a harmonic path in 2D space.
+The robot model is a simple bicycle model that is suitable when velocity is lower than 15 km/h. The controller is a modified PID. To find the best PID gains, a Gradient Descent Optimization Algorithm was utilized.
 
 
 ## Dynamical system, inputs and other variables
@@ -12,7 +13,7 @@ In this project, I Controlled a vehicle or a nonholonomic robot lateral movement
   <img src="https://github.com/MustafaLotfi/Vehicle-Lateral-Control/blob/main/docs/images/2.gif">
 </div>
 
-## Steering Wheel
+## System input
 <div align="left">
   <img src="https://github.com/MustafaLotfi/Vehicle-Lateral-Control/blob/main/docs/images/3.jpg">
 </div>
