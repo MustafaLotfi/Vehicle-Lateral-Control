@@ -8,7 +8,7 @@ In this project, I Controlled a vehicle or a nonholonomic robot lateral movement
 </div>
 
 ## Preview
-<div align="left">
+<div align="center">
   <img src="https://github.com/MustafaLotfi/Vehicle-Lateral-Control/blob/main/docs/images/2.gif">
 </div>
 
