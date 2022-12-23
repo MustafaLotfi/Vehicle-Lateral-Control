@@ -4,9 +4,10 @@
 %%% Date: 5/5/2022
 %%% Matlab version: 2021a
 %%% Brief description: In this project, lateral movement of a vehicle
-%%% (a nonholonomic robot) has been controlled to track a harmonic path
-%%% in 2D space. The robot model is a simple bicycle model that is
-%%% suitable when velocity is lower than 15 km/h. The controller is a
+%%% (a nonholonomic robot) has been controlled. A harmonic path has been
+%%% considered as the trajectory of the robot in the 2D space.
+%%% The robot model is a simple bicycle model which is
+%%% suitable when the velocity is lower than 15 km/h. The controller is a
 %%% modified PID. To find the best PID gains, a Gradient Descent
 %%% Optimization Algorithm was utilized.
 clc;
@@ -18,13 +19,13 @@ find_best_coefs = false;
 default_coefs = [65, 71, 2];    % [65, 71, 2] is a good set
 dynamic_plot = true;
 
-L = 0.2;
-v = 0.1;
-x0 = 0.5;
-y0 = 0;
-theta0 = 0;
-delta_min = -pi/4;
-delta_max = pi/4;
+L = 0.2;        % Rear and front axes distances
+v = 0.1;        % Longitudinal velocities
+x0 = 0.5;       % Initial position in horizontal direction
+y0 = 0;         % Initial position in vertical direction
+theta0 = 0;     % Initial robot head angle
+delta_min = -pi/4;  % Lower bound for steering wheel
+delta_max = pi/4;   % Upper bound for steering whell
 
 % Gathering data
 user_params.x0 = x0;
@@ -38,8 +39,8 @@ user_params.delta_max = delta_max;
 if find_best_coefs
     %% Start of optimization
     % Objective function and constraints
-    lb_val = -10;
-    ub_val = 100;
+    lb_val = -10;   % Lower bound for coefficients
+    ub_val = 100;   % Upper bound for coefficients
     lb = ones(1, 3)*lb_val;
     ub=ones(1, 3)*ub_val;
     nvar=numel(lb);
