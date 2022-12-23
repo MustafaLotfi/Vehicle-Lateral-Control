@@ -1,6 +1,6 @@
 # Vehicle-Lateral-Control
 ## Problem
-In this project, lateral movement of a vehicle (a nonholonomic robot) has been controlled. A harmonic path has been considered as the trajectory of the robot in the 2D space. The robot model is a simple bicycle model that is suitable when velocity is lower than 15 km/h. The controller is a modified PID. To find the best PID gains, a Gradient Descent Optimization Algorithm was utilized.
+In this project, lateral movement of a vehicle (a nonholonomic robot) has been controlled. A harmonic path has been considered as the trajectory of the robot in the 2D space. The robot model is a simple bicycle model which is suitable when the velocity is lower than 15 km/h. The controller is a modified PID. To find the best PID gains, a Gradient Descent Optimization Algorithm was utilized.
 
 
 ## Dynamical system, inputs and other variables
